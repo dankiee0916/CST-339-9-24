@@ -13,6 +13,6 @@ public class RestController {
     @GetMapping("/test1")
     @ResponseBody
     public String printHello() {
-        return "Hello World!";
+        return "Hello World! From a merged branch! :)";
     }
 }
